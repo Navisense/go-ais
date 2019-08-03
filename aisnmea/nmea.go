@@ -6,7 +6,7 @@ import (
 
 	"github.com/BertoldVdb/go-ais"
 
-	nmea "github.com/adrianmo/go-nmea"
+	nmea "github.com/klyve/go-nmea"
 )
 
 const (
