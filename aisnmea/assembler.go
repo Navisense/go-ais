@@ -12,6 +12,7 @@ type VdmPacket struct {
 	MessageType string
 	Payload     []byte
 	Packet      ais.Packet
+	TagBlock    nmea.TagBlock
 }
 
 type vdmAssemblyWork struct {
@@ -74,6 +75,7 @@ func (v *vdmAssembler) process(vdm *nmea.VDMVDO) (VdmPacket, bool) {
 			TalkerID:    vdm.BaseSentence.TalkerID(),
 			MessageType: vdm.BaseSentence.DataType(),
 			Payload:     vdm.Payload,
+			TagBlock:    vdm.TagBlock,
 		}, true
 	}
 
