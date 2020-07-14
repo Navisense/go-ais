@@ -1,7 +1,7 @@
 package aisnmea
 
 import (
-	"github.com/klyve/go-ais"
+	"github.com/Navisense/go-ais"
 	nmea "github.com/klyve/go-nmea"
 )
 
