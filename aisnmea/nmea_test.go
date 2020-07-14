@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/BertoldVdb/go-ais"
+	"github.com/Navisense/go-ais"
 	"github.com/klyve/go-nmea"
 )
 
