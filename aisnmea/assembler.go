@@ -2,7 +2,7 @@ package aisnmea
 
 import (
 	"github.com/Navisense/go-ais"
-	nmea "github.com/klyve/go-nmea"
+	nmea "github.com/Navisense/go-nmea"
 )
 
 // VdmPacket is a packet that can be encoded into or decoded from a NMEA sentence
